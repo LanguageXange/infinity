@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html {
+  box-sizing: border-box;
+}
+.credit{
+  position: fixed;
+  top:10px;
+  left:10px;
+}
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  background: rgb(230, 215, 215);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.loader {
+  position: fixed;
+ top:0;
+ left:0;
+ bottom:0;
+ right:0
+}
+.loader span{
+  position: fixed;
+  top: 40%;
+  left: 47%;
+  transform: translate(-40%, -47%);
+}
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width:99%;
+}
+.container{
+    background-color: black;
+    position: relative;
+    padding:10px;
+    margin: 5px auto;
+}
+.heart{
+   font-size:20px;
+   padding: 0 5px;
+   z-index: 1000;
+   position: absolute;
+   top:10px;
+   right:15px;
+   background-color: rgb(233, 120, 33);
+   content:""
+   
+}
+.container > a:hover{
+  cursor: url('./png/cam2.png'),auto
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 15px;
+  }
+  .credit{
+    font-size:8px;
+  }
+}
