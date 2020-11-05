@@ -3,4 +3,4 @@
 
 ---
 
-View Live at https://languagexange.github.io/infinity/
+View Live at [live demo](https://languagexange.github.io/infinity/)
